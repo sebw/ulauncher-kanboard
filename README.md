@@ -12,3 +12,7 @@ Kanboard Python Library: `pip install kanboard`
 
 - mark task as done
 - move task to different column (such as wip)
+
+## Demo
+
+![](https://raw.githubusercontent.com/sebw/ulauncher-kanboard/master/images/demo.gif)
