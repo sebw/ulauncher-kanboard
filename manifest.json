@@ -1,0 +1,46 @@
+{
+  "required_api_version": "^2.0.0",
+  "name": "Kanboard",
+  "description": "Add cards to your Kanboard",
+  "developer_name": "Sebastien Wains",
+  "icon": "images/icon.png",
+  "options": {
+    "query_debounce": 0.1
+  },
+  "preferences": [
+    {
+      "id": "demo_kw",
+      "type": "keyword",
+      "name": "Kanboard",
+      "default_value": "kanboard"
+    },
+    {
+      "id": "setting_url",
+      "type": "text",
+      "name": "URL",
+      "description": "Example: https://kanboard.example.org",
+      "default_value": ""
+    },
+    {
+      "id": "setting_user",
+      "type": "text",
+      "name": "User",
+      "description": "Your Kanboard username",
+      "default_value": ""
+    },
+    {
+      "id": "setting_pass",
+      "type": "text",
+      "name": "API token",
+      "description": "Your API token generated under My Profile > API",
+      "default_value": ""
+    },
+    {
+      "id": "project_id",
+      "type": "text",
+      "name": "Project ID",
+      "description": "Project ID",
+      "default_value": ""
+    }
+  ]
+}
