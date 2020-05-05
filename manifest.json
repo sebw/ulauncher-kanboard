@@ -39,7 +39,7 @@
       "id": "project_id",
       "type": "text",
       "name": "Project ID",
-      "description": "Project ID",
+      "description": "Found at the end of the URL. Example: https://kanban.example.org/board/8",
       "default_value": ""
     }
   ]
