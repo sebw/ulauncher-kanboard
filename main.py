@@ -32,13 +32,9 @@ class KeywordQueryEventListener(EventListener):
         items = []
 
         query = event.get_argument() or ""
-
         split_query = query.partition(" ")
 
         keyword = split_query[0]
-
-        data = {}
-
         data = split_query[2]
 
         if keyword != "add":

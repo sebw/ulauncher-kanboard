@@ -1,7 +1,7 @@
 {
   "required_api_version": "^2.0.0",
   "name": "Kanboard",
-  "description": "Add cards to your Kanboard",
+  "description": "Add tasks to your Kanboard",
   "developer_name": "Sebastien Wains",
   "icon": "images/icon.png",
   "options": {
