@@ -78,11 +78,13 @@ class ItemEnterEventListener(EventListener):
         if r.status_code == 200:
             items.append(ExtensionResultItem(icon='images/icon.png',
                                                             name="Added %s" % data,
+                                                            highlightable=False,
                                                             on_enter=HideWindowAction()))
             return RenderResultListAction(items)
         else:
             items.append(ExtensionResultItem(icon='images/icon.png',
                                                             name="Error connecting to API.",
+                                                            highlightable=False,
                                                             on_enter=HideWindowAction()))
             return RenderResultListAction(items)
 
